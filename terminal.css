@@ -1,0 +1,87 @@
+body {
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .terminal-container {
+    border: 1px solid #666;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #000;
+    margin: 20px auto;
+    max-width: 600px;
+    overflow: hidden;
+  }
+  
+  .terminal-header {
+    background-color: #000;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+  }
+  
+  .red-dot {
+    background-color: #ff5f56;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    margin-right: 6px;
+    width: 12px;
+  }
+  
+  .yellow-dot {
+    background-color: #ffbd2e;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    margin-right: 6px;
+    width: 12px;
+  }
+  
+  .green-dot {
+    background-color: #27c93f;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    margin-right: 6px;
+    width: 12px;
+  }
+  
+  .terminal-body {
+  background-color: #000;
+  height: 400px;
+  overflow-y: scroll;
+  padding: 10px;
+  }
+  
+  .terminal-input {
+  margin-top: 10px;
+  }
+  
+  .prompt {
+  color: #00ff00;
+  margin-right: 10px;
+  }
+  
+  #terminal-input {
+  background-color: transparent;
+  border: none;
+  color: #f0f0f0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  width: 90%;
+  }
+  
+  .terminal-output {
+  margin-top: 10px;
+  }
+  
+  .terminal-output p {
+  margin: 0;
+  }
